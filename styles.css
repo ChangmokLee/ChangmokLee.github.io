@@ -1,16 +1,32 @@
-#mainmenu a{
+/* #mainmenu span{
     font-size: 1.5rem;
     color: white;
     margin: 30px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #mainmenu {
     background-color: black;
     padding: 30px;
     text-align: center;
-}
+} */
 
 h1 {
     text-align: center;
+}
+
+header {
+    height: 75px;
+    padding: 2rem;
+    color: white;
+    background: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    margin: 1.5rem;
 }
