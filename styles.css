@@ -29,4 +29,5 @@ header {
 
 header span {
     margin: 1.5rem;
+    cursor: pointer;
 }
