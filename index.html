@@ -4,22 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Changmok Lee">
-    <meta name="description" content="Changmok Lee's blog">
-    <meta name="author" content="Changmok Lee">
-    <title>Changmok Lee</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Changmok Lee</title>
+    <script src="https://kit.fontawesome.com/7f3785c8c1.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Changmok Lee</h1>
-        <nav id="mainmenu">
-            <span onclick="location.href='html_introduction_and_basics.html'">html introduction and basics</span>
-            <span onclick="location.href='html_formatting_and_style.html'">html formatting and style</span>
-            <span onclick="location.href='JavaScript_intro.html'">JavaScript_intro</span>
-            <span onclick="location.href='/wwr/rafting.html'">rafting website</span>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <i class="fa-solid fa-cat"></i>
+            <a href="index.html">ChangmokLee</a>
+        </div>
+
+        <ul class="navbar__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html_introduction_and_basics.html">HTML</a></li>
+            <li><a href="html_formatting_and_style.html">CSS</a></li>
+            <li><a href="JavaScript_intro.html">JavaScript</a></li>
+            <li><a href="/wwr/rafting.html">Rafting</a></li>
+        </ul>
+
+        <ul class="navbar__icons">
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+        </ul>
+
+        <a href="#" class="navbar__toogleButton">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </a>
+    </nav>
 </body>
 </html>
