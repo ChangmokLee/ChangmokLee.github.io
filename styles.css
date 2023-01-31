@@ -42,7 +42,7 @@ a {
 }
 
 .navbar__menu li:hover {
-    background-color: var(--background-color);
+    background-color: var(--accent-color);
     border-radius: 4px;
 }
 
