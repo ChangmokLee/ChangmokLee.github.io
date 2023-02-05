@@ -7,6 +7,10 @@
     <title>html formatting and style</title>
     <style>
         /* Internal CSS practice */
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             background-color: powderblue;
         }
@@ -40,8 +44,34 @@
             padding: 40px;
             text-align: center;
         }
+
+        .left {
+             background-color: #2196F3;
+            padding: 20px;
+            float: left;
+            width: 20%; /* The width is 20%, by default */
+        }
+
+        .main {
+            background-color: #f1f1f1;
+            padding: 20px;
+            float: left;
+            width: 60%;
+        }
+
+        .right {
+            background-color: #04aa6d;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+
+        @media screen and (max-width: 800px) {
+            .left, .main, .right {
+                width: 100%;
+            }
+        }
     </style>
-    <link rel="stylesheet" href="styles.css">
 
     <script>
         function myFunction() {
@@ -114,5 +144,37 @@
 
     <p id="demo">A paragraph</p>
     <button type="button" onclick="myFunction()">Try it</button>
+
+    <img src="image/img_girl.jpg" style="max-width: 100%;height: auto;">
+
+    <h2>Show Different Images Depending on Browser Width</h2>
+    <p>Resize the browser width and the image will change at 600px and 1500px.</p>
+
+    <picture>
+        <source srcset="image/img_smallflower.jpg" media="(max-width: 600px)">
+        <source srcset="image/img_flowers.jpg" media="(max-width: 1500px)">
+        <source srcset="flowers.jpg">
+        <img src="image/img_flowers.jpg" alt="Flowers" style="width: auto;">
+    </picture>
+
+    <h1 style="font-size: 5vw;">Hello World</h1>
+
+    <h2>Media Queries</h2>
+    <p>Resize the browser window.</p>
+
+    <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+    <div class="left">
+        <p>Left Menu</p>
+    </div>
+
+    <div class="main">
+        <p>Main Content</p>
+    </div>
+
+    <div class="right">
+        <p>Right Content</p>
+    </div>
+
 </body>
 </html>

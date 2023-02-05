@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: var(--background-color);
     margin: 0;
     font-family: 'Source Sans Pro';
 }
@@ -24,7 +25,6 @@ a {
 
 .navbar__logo {
     font-size: 24px;
-    color: var(--accent-color);
 }
 
 .navbar__logo i {
