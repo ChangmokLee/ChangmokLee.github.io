@@ -63,8 +63,8 @@
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 80px;
   justify-items: center;
 }
 .red3 {
@@ -75,12 +75,12 @@
 } 
 .green3 {
   width: 100%; 
-  height: 100px; 
+  height: 200px; 
   background-color: green;
 } 
 .yellow3 {
   width: 100%; 
-  height: 100px; 
+  height: 200px; 
   background-color: gold; 
 } 
 .blue3 {
