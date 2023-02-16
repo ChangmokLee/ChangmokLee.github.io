@@ -4,12 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7f3785c8c1.js" crossorigin="anonymous"></script>
+    <title>Youtube Mobile</title>
 </head>
 <body>
-    <header></header>
-    <section class="player"></section>
-    <section class="videoInfo"></section>
-    <section class="upNext"></section>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/Pasta.MOV"></video>
+    </section>
+    
+    <!-- Video Info -->
+    <section class="videoInfo">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#ChangmokLee</li>
+                <li>#Pasta</li>
+                <li>#Youtube</li>    
+            </ul>
+            <div class="titleAndButton">
+                <span class="title">
+                    White Sauce Pasta | Creamy & Cheesy White Sauce Pasta | Kanak's Kitchen
+                </span>
+                <button class="moreBtn">
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="views">
+                <span class="views">1M views 1 month ago</span>
+            </div>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+            <li>
+                <button><i class="fa-solid fa-thumbs-up"></i><span>1K</span></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-thumbs-down"></i><span>0</span></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-share"></i><span>Share</span></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-plus"></i><span>Save</span></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-flag"></i><span>Report</span></button>
+            </li>
+        </ul>
+        <!-- Channel Description -->
+        <div class="channel">
+            <div class="medata">
+                <img src="img/avatar.JPG" alt="">
+                <div class="info">
+                    <span class="name">Changmok Lee</span>
+                    <span class="subscribers">1M subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+
+    <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <img src="img/1.jpg" alt="">
+                <div class="info"></div>
+                <button class="moreBtn"></button>
+            </li>
+            <li class="item"></li>
+            <li class="item"></li>
+        </ul>
+    </section>
 </body>
 </html>
