@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7f3785c8c1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Youtube Mobile</title>
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -24,7 +27,7 @@
     <section class="player">
         <video controls src="video/Pasta.MOV"></video>
     </section>
-    
+
     <!-- Video Info -->
     <section class="videoInfo">
         <!-- Metadata -->
@@ -32,7 +35,7 @@
             <ul class="hashtags">
                 <li>#ChangmokLee</li>
                 <li>#Pasta</li>
-                <li>#Youtube</li>    
+                <li>#Youtube</li>
             </ul>
             <div class="titleAndButton">
                 <span class="title">
@@ -42,14 +45,12 @@
                     <i class="fa-solid fa-caret-down"></i>
                 </button>
             </div>
-            <div class="views">
-                <span class="views">1M views 1 month ago</span>
-            </div>
+            <span class="views">1M views 1 month ago</span>
         </div>
         <!-- Actions -->
         <ul class="actions">
             <li>
-                <button><i class="fa-solid fa-thumbs-up"></i><span>1K</span></button>
+                <button><i class="active fa-solid fa-thumbs-up"></i><span>1K</span></button>
             </li>
             <li>
                 <button><i class="fa-solid fa-thumbs-down"></i><span>0</span></button>
@@ -66,7 +67,7 @@
         </ul>
         <!-- Channel Description -->
         <div class="channel">
-            <div class="medata">
+            <div class="metadata">
                 <img src="img/avatar.JPG" alt="">
                 <div class="info">
                     <span class="name">Changmok Lee</span>
@@ -81,13 +82,34 @@
         <span class="title">Up next</span>
         <ul>
             <li class="item">
-                <img src="img/1.jpg" alt="">
-                <div class="info"></div>
+                <div class="img"><img src="img/1.jpg" alt=""></div>
+                <div class="info">
+                    <span class="title">김나박이를 제대로 그리고 싶다면? 러쉬모어 산에 박혀있는 김나박이를 같이 그려봐요!</span>
+                    <span class="name">Changmok Lee</span>
+                    <span class="views">57K views</span>
+                </div>
                 <button class="moreBtn"></button>
             </li>
-            <li class="item"></li>
-            <li class="item"></li>
+            <li class="item">
+                <div class="img"><img src="img/2.jpg" alt=""></div>
+                <div class="info">
+                    <span class="title">코난을 제대로 그리고 싶다면? 심영과 김두한을 응용해 그려봐요!</span>
+                    <span class="name">Changmok Lee</span>
+                    <span class="views">83K views</span>
+                </div>
+                <button class="moreBtn"></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="img/3.jpg" alt=""></div>
+                <div class="info">
+                    <span class="title">심영을 제대로 그리고 싶다면? 말죽거리 잔혹사를 응용한 심영을 같이 그려봐요!</span>
+                    <span class="name">Changmok Lee</span>
+                    <span class="views">76K views</span>
+                </div>
+                <button class="moreBtn"></button>
+            </li>
         </ul>
     </section>
 </body>
+
 </html>
